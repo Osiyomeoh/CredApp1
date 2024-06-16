@@ -5,7 +5,7 @@ require("dotenv").config();
 const projectId = process.env.INFURA_PROJECT_ID_RINKEBY;
 const projectId1 = process.env.INFURA_PROJECT_ID_MUMBAI;
 const privateKey = process.env.DEPLOYER_SIGNER_PRIVATE_KEY;
-
+//kk
 module.exports = {
   plugins: ['truffle-plugin-verify'],
   api_keys: {
